@@ -11,6 +11,6 @@
 </head>
 <body>
 	访问属性
-	<a href="<%=contextPath%>/ognl.action?username=u&password=p">ognl</a>
+	<a href="<%=contextPath%>/tags.action?username=u&password=p">ognl</a>
 </body>
 </html>

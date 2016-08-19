@@ -19,16 +19,11 @@
 	<!-- 开发模式 -->
 	<constant name="struts.devMode" value="true" />
 
-	<!-- 默认action 开始 -->
-	<package name="default" namespace="/" extends="struts-default">
-		<default-action-ref name="default"></default-action-ref>
-		<action name="default">
-			<result>/default.jsp</result>
+	<package name="tags" extends="struts-default">
+		<action name="tags" class="com.struts2.sags.TagsAction">
+			<result>/tags.jsp</result>
 		</action>
 	</package>
-	<!-- 默认action 结束 -->
-
-
 </struts>
 
 
